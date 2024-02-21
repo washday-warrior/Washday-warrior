@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Shirley Goco</title> 
+  </head>
+  <body class="d-flex flex-column">
+    <div id="page-container">  
+      <div id="content-wrap">
+        <header>
+          <nav class="navbar navbar-expand-md navbar-light fixed-top" id="mainNavbar">
+              <div class="profile border-md-right">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Shirley Goco" class="rounded-circle" id="profilePic"> 
+                </a>
+              </div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse navbar-expand-md" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active ml-4 ml-md-6">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <!-- <li class="nav-item dropdown ml-4 ml-md-6">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Projects
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="itprof.html"><strong>IT Professional</strong></a>
+                              <a class="dropdown-item subMenu" href="#">&nbsp; Perl</a>
+                              <a class="dropdown-item subMenu" href="#">&nbsp; PLSQL</a>
+                              <a class="dropdown-item subMenu" href="#">&nbsp; Web</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item " href="crafter.html"><strong>Crafter</strong></a>
+                              <a class="dropdown-item subMenu" href="#">&nbsp; Accessories</a>
+                              <a class="dropdown-item subMenu" href="#">&nbsp; Jewellery</a>
+                              <a class="dropdown-item subMenu" href="#">&nbsp; Wedding</a>
+                            </div>
+                        </li> -->
+                        <li class="nav-item ml-4 ml-md-6">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item ml-4 ml-md-6">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                  </ul>
+            </div>
+          </nav>
+      </header>
+      <main>
+        <div class="container-fluid mainContainer pt-5" id="page-content">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="container">
+                <div class="jumbotron">
+                 </div>         
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="container">
+                  <div class="jumbotron">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      </div>
+      <footer class="footer stickyfooter pt-2">
+          <div class="container-fluid row justify-content-end align-items-center">
+              <div class="row">
+                  <div class="col-12">
+                        <i class="far fa-copyright"></i>  2019                    
+                  </div>
+              </div>
+          </div>     
+      </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--Font Awesome -->
+    <script src="https://kit.fontawesome.com/62434e177f.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#mainNavbar");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+  </script>
+  </body>
+</html>

@@ -58,7 +58,8 @@
 
 .navbar.scrolled {
   background-color: #cacaca77;
-/* background: rgba(151, 150, 150, 0.9); */
+/* background: rgb(4, 38, 152); */
+
 transition: background 1s;
 }
 
@@ -114,7 +115,8 @@ background-position: center;
     min-height: 100%;
     z-index: -1;
     opacity: 0.8;
-    background-color: #cacaca77;
+    /*background-color:rgb(4, 38, 152); #cacaca77;*/
+    background-color:rgb(155, 212, 228);
     }
 
 /* .indexBody {

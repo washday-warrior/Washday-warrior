@@ -67,6 +67,14 @@ transition: background 1s;
   }
 
 
+.logo{
+    display:block;
+    width: 300px;
+    height: 300px;   
+}
+
+/*.logo { background:url(images/Washday_warrior_logo.png) 0 0 no-repeat; display:block; height:50px; overflow:hidden; text-decoration:none; text-indent:-9999em; width:50px; }
+*/
 
 .indexContainer::before {
 /* background-image: url('https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'); */
@@ -148,7 +156,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 #profilePic {
-    max-height: 50px;
+    max-height: 100px;
 }
 
 
@@ -394,7 +402,7 @@ body {
 }
 
 	.contactCard:nth-child(1) .avatar{
-		background-image: url("images/profile.jpg");
+		background-image: url("images/Washday_warrior_logo.png");
 	}
 
  .contactCard h3, a, i{

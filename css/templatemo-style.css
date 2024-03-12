@@ -95,9 +95,9 @@ button:focus { outline: none; }
 	.tm-intro {	background-attachment: scroll; }
 }
 
-.tm-logo { margin-bottom: 30px; }
+.tm-logo { margin-bottom: 20px; width:70%; height:70%}
 .tm-site-name { margin-bottom: 40px; }
-.tm-intro-text { margin-bottom: 45px; }
+.tm-intro-text { margin-bottom: 10px; }
 
 #tm-section-1,
 .tm-section-1-inner,
@@ -117,7 +117,7 @@ button:focus { outline: none; }
 	border-radius: 50px;
 	color: white;
 	display: inline-block;
-    padding: 15px 60px;    
+    padding: 10px 40px;    
 }
 
 .tm-intro-link:hover,
@@ -130,13 +130,15 @@ button:focus { outline: none; }
 .tm-intro-text,
 .tm-intro-link {
 	color: white;
-	font-size: 24px;
+	font-size: 22px;
 }
 
 .gray-bg { background-color: #F4F4F4; }
 .dark-gray-text { color: #666666; }
 .blue-text { color: #006699; }
 .light-blue-text { color: #4EA7FF; }
+.blue-bg { background-color: rgb(155, 212, 228); }
+
 
 .btn {
   border-radius: 50px;
@@ -240,10 +242,10 @@ button:focus { outline: none; }
 	overflow: auto;
 }
 
-.tm-footer {
-	padding-bottom: 20px;
+/*.tm-footer {
+	padding-bottom: 10px;
 	overflow: auto;
-}
+}*/
 
 .tm-news-item {
 	margin: 0 auto 5% auto;
@@ -398,12 +400,20 @@ body.page-2 { padding-top: 80px; }
     }
 
     .tm-contact-form { margin-right: 20px; }
+	.tm-logo { margin-bottom: 20px; width:90%; height:90%}
 }
 
 @media (max-width: 1199px) {
 	h2 { font-size: 1.8rem; }
 	.tm-news-title { margin-bottom: 15px; }
 	.tm-news-text { line-height: 1.6; }	
+	.tm-logo { margin-bottom: 20px; width:90%; height:90%}
+	.navbar-nav .nav-link,
+	.tm-intro-text,
+	.tm-intro-link {
+					color: white;
+					font-size: 18px;
+}
 }
 
 @media (max-width: 1100px) and (min-width: 992px) {
@@ -553,3 +563,25 @@ body.page-2 { padding-top: 80px; }
 	  }
 	}
   }
+
+  .tm-footer {
+	/*background: url(../img/home-bg.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-size: 100% 750px;*/
+	background-color:rgb(155, 212, 228);
+	color: white;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	height: 120px;	
+}

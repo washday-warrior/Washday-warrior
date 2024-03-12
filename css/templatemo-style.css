@@ -83,11 +83,11 @@ button:focus { outline: none; }
 	-webkit-justify-content: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	height: 750px;	
+	height: 850px;	
 }
 
 @media (max-width: 1800px) {
-	.tm-intro {	background-size: 1800px 750px; }
+	.tm-intro {	background-size: 1800px 850px; }
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {

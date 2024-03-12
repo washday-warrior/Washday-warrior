@@ -83,7 +83,7 @@ button:focus { outline: none; }
 	-webkit-justify-content: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	height: 850px;	
+	height: 950px;	
 }
 
 @media (max-width: 1800px) {
@@ -484,6 +484,7 @@ body.page-2 { padding-top: 80px; }
 	.tm-footer {
 		height:200px;
 	}
+	.tm-intro {height:750px;}
 }
 
 @media (max-width: 767px) {

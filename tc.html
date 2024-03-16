@@ -49,7 +49,10 @@
                                 <a class="nav-link external" href="index.html#tm-section-3">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="index.html#tm-section-4">Contact</a>
+                                <a class="nav-link external" href="index.html#tm-section-4">Get Quote</a>
+                            </li>
+                            <li class="nav-item" id="nav-phone">
+                                <a class="nav-link " href="#"><i class="fa-solid fa-phone">&nbsp;&nbsp; 0448904620</i></a>
                             </li>
                         </ul>
                     </div>
@@ -151,18 +154,26 @@
 
                 if($(window).scrollTop() >= target) {
                     $(".tm-navbar-container").addClass("bg-inverse");
+                    $('#nav-phone').removeClass("hide-nav-item");
+                    $('#nav-phone').addClass("display-nav-item");
                 }
                 else {
                     $(".tm-navbar-container").removeClass("bg-inverse");
+                    $('#nav-phone').removeClass("display-nav-item");
+                    $('#nav-phone').addClass("hide-nav-item");
                 }
 
                 $(window).scroll(function(){
                    
                     if($(this).scrollTop() >= target) {
                         $(".tm-navbar-container").addClass("bg-inverse");
+                        $('#nav-phone').removeClass("hide-nav-item");
+                        $('#nav-phone').addClass("display-nav-item");
                     }
                     else {
                         $(".tm-navbar-container").removeClass("bg-inverse");
+                        $('#nav-phone').removeClass("display-nav-item");
+                        $('#nav-phone').addClass("hide-nav-item");
                     }
                 });
 
